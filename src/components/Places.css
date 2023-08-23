@@ -1,0 +1,19 @@
+.places-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 67px;
+    margin-right: 20px;
+}
+
+.places-container>img{
+    mix-blend-mode: color-burn;
+}
+
+
+.places-container>p{
+    text-align: center;
+    margin-top: 2px;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+}

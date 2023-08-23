@@ -1,0 +1,33 @@
+.container{
+    margin: 30px 20px;
+    padding: 20px 10px;
+    width: 210px;
+}
+
+img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.moviename{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.ptag{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(102, 102, 102);
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+.card{
+    width: 204px;
+}
