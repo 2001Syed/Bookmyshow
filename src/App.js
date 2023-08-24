@@ -1,8 +1,9 @@
 import React from 'react'
 import Movieslist from './components/Movieslist'
 import "./App.css"
-import UseeffectDom from './components/UseeffectDom'
 import Places from './components/Places'
+import Courasel from './components/Courasel'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -203,6 +204,9 @@ function App() {
         })
         }
       </div>
+      <div className="courasel">
+        <Courasel></Courasel>
+      </div>
       <div className='movies scss'>
       {
         moviesImage.map( (x) => {
@@ -214,7 +218,9 @@ function App() {
         })
       }
       </div>
-      <UseeffectDom></UseeffectDom>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   )
 }

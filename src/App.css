@@ -3,7 +3,6 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-*{
-    background-color: rgb(225, 219, 219) ;
+body{
+    background-color: rgb(225, 219, 219);
 }
-
