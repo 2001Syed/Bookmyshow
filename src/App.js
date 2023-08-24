@@ -1,9 +1,9 @@
 import React from 'react'
-import Movieslist from './components/Movieslist'
 import "./App.css"
-import Places from './components/Places'
-import Courasel from './components/Courasel'
-import Footer from './components/Footer'
+import Movieslist from './components/Hyderabad/Movieslist'
+import Places from './components/Hyderabad/Places'
+import Courasel from './components/Hyderabad/Courasel'
+import Footer from './components/Hyderabad/Footer'
 
 function App() {
 
