@@ -93,11 +93,13 @@ function Footer() {
             </div>
             <div className="bmslogo">
                 <div className="hrline">
+                    
                 </div>
                 <div>
                     <img src="https://in.bmscdn.com/webin/common/icons/logo.svg" alt="" style={{width: "130px"}}/>
                 </div>
                 <div className="hrline">
+                    
                 </div>
             </div>
             <div className="allIcons">
