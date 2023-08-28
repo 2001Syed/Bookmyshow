@@ -1,0 +1,141 @@
+.footers-container{
+    margin: 0px;
+    padding: 0;
+    font-family: roboto;
+}
+
+.footer-container{
+    color: rgb(165,165,165);
+}
+.flex{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.ffooter{
+    justify-content: space-between;
+    padding: 30px 0px;
+    font-size: 20px;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 18px;
+    width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+.footer1{
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+
+.footer1>img{
+    width: 35px;
+    /* position: relative;
+    top: -7px;
+    left: -5px; */
+}
+
+.footer2>button{
+    border: none;
+    background-color: rgb(232,94,112);
+    color: white;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.csupport{
+    background-color: rgb(64,64,67);
+    background-size: 100%;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.csupport>div:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.hrline{
+    height: 1px;
+    background-color: grey;
+}
+.allIcons{
+    display: flex;
+    /* background-color: white; */
+    justify-content: center;
+    gap: 12px;
+    padding: 10px;
+    margin: 30px 10px 20px 10px ;
+}
+
+.bmslogo{
+    display: grid;
+    grid-template-columns: 2fr 150px 2fr;
+    text-align: center;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.icons{
+    background-color: rgb(93,93,95);
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    color:  #333338;
+}
+
+.icons:hover{
+    background-color: white;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.5;
+    padding-bottom: 60px;
+}
+
+.footerContent{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 11px;
+}
+
+.flist{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footerContent>div>p{
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.list-content>li{
+    border-right: 1px solid rgb(165,165,165);
+    padding-right: 10px;
+}
+
+.list-content>li:hover{
+    color: white;
+}
+.ln{
+    margin-bottom: 40px;
+}
+
+.ln>li{
+    width: 100%;
+}

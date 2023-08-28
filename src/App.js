@@ -1,9 +1,10 @@
 import React from 'react'
 import "./App.css"
-import Movieslist from './components/Hyderabad/Movieslist'
-import Places from './components/Hyderabad/Places'
-import Courasel from './components/Hyderabad/Courasel'
-import Footer from './components/Hyderabad/Footer'
+import Navigation from './components/Navigation Bar/Navigation'
+import Courasel from "./components/Hyderabad/Courasel"
+import Places from "./components/Hyderabad/Places"
+import Movieslist from "./components/Hyderabad/Movieslist"
+import Footer from "./components/Footer/Footer"
 
 function App() {
 
@@ -196,6 +197,7 @@ function App() {
   ]
   return (
     <div>
+      <Navigation></Navigation>
       <div className='places scss'>{
         selectplaces.map((i) => {
           return (
