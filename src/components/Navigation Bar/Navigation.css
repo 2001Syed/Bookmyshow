@@ -1,13 +1,11 @@
 .navbar {
-    background: #333545;
+    background: rgb(51,53,69);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 15px ;
   }
   .navbar-div{
-    position: sticky;
-    top: 0;
     width: 100%;
   }
 

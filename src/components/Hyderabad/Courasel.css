@@ -26,3 +26,14 @@
     position: relative;
     left: -70px;
 }
+
+.icc-img1{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.icc-img1>img{
+    width: 90%;
+    cursor: pointer;
+}

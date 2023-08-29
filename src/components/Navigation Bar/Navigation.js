@@ -21,7 +21,7 @@ function Navigation() {
      
             <div className="menu">
                 <div className="rightmenu">
-                    <a href="">movies</a>
+                    <a href="">Movies</a>
                     <a href="">Stream</a>
                     <a href="">Events</a>
                     <a href="">Plays</a>
