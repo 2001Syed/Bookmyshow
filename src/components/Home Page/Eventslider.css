@@ -1,0 +1,33 @@
+.Eventimg::-webkit-scrollbar,
+.Eventimg::-webkit-scrollbar {
+  display: none;
+}
+
+.Eventimg {
+
+  display: flex;
+  width: 80%;
+  margin: auto;
+  position: relative;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+
+
+
+}
+
+.slider img {
+
+  width: 225px;
+  /* margin: 0 10px; */
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+
+.event {
+  width: 80%;
+  margin: auto;
+
+
+}

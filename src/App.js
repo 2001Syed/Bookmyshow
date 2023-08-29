@@ -1,22 +1,38 @@
 import React from 'react'
 import "./App.css"
-import Courasel from "./components/Home Page/Courasel"
 import Footer from "./components/Footer/Footer"
-import Allmovies from './components/Hyderabad/Allmovies'
 import Home from './components/Home Page/Home'
+import Navigation from './components/Navigation Bar/Navigation'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Stream from './components/Home Page/Stream'
+import Events from './components/Event/Events'
+import Activities from './components/Activities/Activities'
+import Buzz from './components/Buzz/Buzz'
+import ICC from './components/ICC/ICC'
+import ListYourShow from './components/ListYourShow/ListYourShow'
 
 function App() {
   return (
     <div>
-      <Home></Home>
-      <div className="courasel">
-        <Courasel></Courasel>
-      </div>
-      <div>
+      <BrowserRouter>
+        <Navigation></Navigation>
+        <Routes>
+
+          <Route path='/' element = {<Home></Home>}> </Route>
+          <Route path='/stream' element = {<Stream></Stream>}></Route>
+          <Route path='/event' element = {<Events></Events>}></Route>
+          <Route path='/activities' element = {<Activities></Activities>}></Route>
+          <Route path='/buzz' element = {<Buzz></Buzz>}></Route>
+          <Route path='/icc' element = {<ICC></ICC>}></Route>
+          <Route path='/listyourshow' element = {<ListYourShow></ListYourShow>}></Route>
+        </Routes>
+      <Footer></Footer>
+      </BrowserRouter>
+      
+      {/* <div>
         <Allmovies></Allmovies>
-      </div>
+      </div> */}
       <div>
-        <Footer></Footer>
       </div>    
     </div>
   )
