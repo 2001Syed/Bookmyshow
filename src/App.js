@@ -1,22 +1,14 @@
 import React from 'react'
 import "./App.css"
-import Navigation from './components/Navigation Bar/Navigation'
-import Courasel from "./components/Hyderabad/Courasel"
+import Courasel from "./components/Home Page/Courasel"
 import Footer from "./components/Footer/Footer"
-import AllPlaces from './components/Home Page/AllPlaces'
-import OtherCities from './components/Home Page/OtherCities'
 import Allmovies from './components/Hyderabad/Allmovies'
+import Home from './components/Home Page/Home'
 
 function App() {
   return (
     <div>
-      <Navigation></Navigation>
-      <div>
-        <AllPlaces></AllPlaces>
-      </div>
-      <div>
-        <OtherCities></OtherCities>
-      </div>
+      <Home></Home>
       <div className="courasel">
         <Courasel></Courasel>
       </div>
