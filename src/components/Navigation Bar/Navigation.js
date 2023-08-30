@@ -14,10 +14,12 @@ function Navigation() {
                     <input type="text" name="" id="" placeholder='Search for movies here' />
                 </div>
                 <div className='left'>
+                <Link to='/hyderabad'>
                     <select name="" id="">
-                        <option value="Hyderabad">Hyderabad</option>
+                            <option value="Hyderabad">Hyderabad</option>
 
                     </select>
+                </Link>
                     <button>Sign in</button>
                 </div>
             </nav>
@@ -31,8 +33,10 @@ function Navigation() {
                     <Link to='/event'>
                         <a href="">Events</a>
                     </Link>
+                    <Link to='./sports'>
+                        <a href="">Sports</a>
+                    </Link>
                     <a href="">Plays</a>
-                    <a href="">Sports</a>
                     <Link to='/activities'>
                         <a href="">Activities</a>
                     </Link>

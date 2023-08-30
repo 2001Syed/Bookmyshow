@@ -9,6 +9,8 @@
   width: 80%;
   margin: auto;
   position: relative;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
   overflow-x: scroll;
   white-space: nowrap;
   scroll-behavior: smooth;

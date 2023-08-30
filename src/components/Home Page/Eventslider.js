@@ -6,7 +6,8 @@ function Eventslider() {
   return (
     <div>
       <div className="Eventimg">
-            {/* <button onclick="rightScroll()" id="left">&#10094;</button> */}
+            
+            <button onclick="leftScroll()" id="right">&#10095;</button>
             <div className='slider'>
                 <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-ODArIEV2ZW50cw%3D%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/workshop-and-more-web-collection-202211140440.png" alt="" />
             </div>
@@ -32,7 +33,8 @@ function Eventslider() {
             <div className="slider">
                 <img src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300:q-80/dance-classes-collection-202211140440.png" alt="" />
             </div>
-            {/* <button onclick="leftScroll()" id="right">&#10095;</button> */}
+            <button onclick="rightScroll()" id="left">&#10094;</button>
+
         </div>
     </div>
   )

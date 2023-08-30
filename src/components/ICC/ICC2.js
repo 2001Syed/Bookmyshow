@@ -67,7 +67,7 @@ function ICC2() {
   return (
     <div>
       <div>
-        <h3 className="heading2">Find Matches By Venue</h3>
+        <h3 className="heading2 heading">Find Matches By Venue</h3>
       </div>
 
       <div className="mainimg-card">

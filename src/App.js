@@ -10,6 +10,10 @@ import Activities from './components/Activities/Activities'
 import Buzz from './components/Buzz/Buzz'
 import ICC from './components/ICC/ICC'
 import ListYourShow from './components/ListYourShow/ListYourShow'
+import Sports from './Sports/Sports'
+import Places from "./components/Places/Places"
+
+
 
 function App() {
   return (
@@ -25,6 +29,8 @@ function App() {
           <Route path='/buzz' element = {<Buzz></Buzz>}></Route>
           <Route path='/icc' element = {<ICC></ICC>}></Route>
           <Route path='/listyourshow' element = {<ListYourShow></ListYourShow>}></Route>
+          <Route path='/sports' element = {<Sports></Sports>}></Route>
+          <Route path='/hyderabad' element = {<Places></Places>}></Route>
         </Routes>
       <Footer></Footer>
       </BrowserRouter>
