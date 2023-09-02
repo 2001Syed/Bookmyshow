@@ -150,9 +150,9 @@ function Activities() {
        <div className='maindivs'>
           <div className='filtersDiv'>
                <h2 className='filter'>Filters</h2>
-       <div>
-          {/* <Accordions /> */}
-       </div>
+         <div>
+            {/* <Accordions /> */}
+         </div>
              
           
           </div>

@@ -20,7 +20,7 @@
     gap: 20px;
     background: #2b3148;
     color: white;
-    /* line-height: 1.5; */
+    line-height: 1.5;
   
   }
   
@@ -37,4 +37,11 @@
     background: #2b3148;
     color: white;
   
+  }
+
+  .prep{
+    text-align: left;
+    color: rgb(165,165,165);
+    font-size: 12px;
+    margin-top: 5px;
   }

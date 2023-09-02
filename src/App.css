@@ -3,6 +3,10 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+/* body::-webkit-scrollbar{
+    display: none;
+} */
 body{
     background-color: rgb(200, 202, 204);
+    overflow-x: hidden;
 }

@@ -1,0 +1,82 @@
+
+.giftcardpick-div{
+    background-color: white;
+    width: 93%;
+    margin: auto;
+    padding: 20px 30px;
+    display: grid;
+    place-content: center;
+    gap: 10px;
+}
+
+.giftcard-img1{
+    width: 100%;
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+}
+
+.giftcard-img1>img{
+    width: 100%;
+}
+
+.egiftcard-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.egiftcard-div>p{
+    border: 1px solid rgb(164, 164, 164);
+    padding: 12px 30px;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+}
+
+/* .pickgiftcard-div{
+} */
+
+.pickgiftcard-div>p{
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(102, 102, 102);
+}
+
+.giftcard-allbtns{
+    display: flex;
+    justify-content: center;
+}
+.giftcard-btn{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    color: rgb(231,78,98);
+    border-radius: 120px;
+    border: none;
+}
+.giftcard-btn:hover, .giftcard-active-btn{
+    background-color: rgb(231,78,98);
+    color: white;
+    cursor: pointer;
+}
+
+.Giftcard-imgcards-div{
+    width: 100%;
+    margin: 18px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    place-content: center;
+    place-items: center;
+}
+
+.Giftcard-imgcards{
+    width: 100%;
+    cursor: pointer;
+
+}

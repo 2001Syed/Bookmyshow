@@ -48,8 +48,8 @@ function Premier() {
 
                         <div className='preimg'>
                             <img src={x.imglink} alt="" />
-                            <h3>{x.name}</h3>
-                            <p>{x.language}</p>
+                            <h3 className='preh3'>{x.name}</h3>
+                            <p className='prep'>{x.language}</p>
                         </div>
                     )
                 }

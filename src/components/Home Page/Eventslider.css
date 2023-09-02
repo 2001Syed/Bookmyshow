@@ -14,9 +14,11 @@
   overflow-x: scroll;
   white-space: nowrap;
   scroll-behavior: smooth;
+}
 
-
-
+.eventslidermain-div{
+  display: flex;
+  align-items: center;  
 }
 
 .slider img {
@@ -30,6 +32,25 @@
 .event {
   width: 80%;
   margin: auto;
+}
 
+.eventsliderbtn{
+  font-size: 28px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 60%;
+  background-color: rgba(0, 0, 0, 0.22);
+}
 
+.eventsliderbtn:hover{
+  background-color: rgba(255, 254, 254, 0.733);
+}
+
+.esleft{
+  position: relative;
+  left: 50px;
+}
+.esright{
+  position: relative;
+  right: 50px;
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./Courasel.css"
 
 const imagescourasel = [
-    "https://assets-in.bmscdn.com/promotions/cms/creatives/1692706486089_spidermendesktop.jpg","https://assets-in.bmscdn.com/promotions/cms/creatives/1690628905918_webbannernpa.jpg","https://assets-in.bmscdn.com/promotions/cms/creatives/1692770491661_lollapaloozadateddesktop.jpg","https://assets-in.bmscdn.com/promotions/cms/creatives/1691130965445_wwesuperstardesktop.jpg"
+    "https://assets-in.bmscdn.com/promotions/cms/creatives/1690628905918_webbannernpa.jpg","https://assets-in.bmscdn.com/promotions/cms/creatives/1693475544970_kickdesktop.jpg","https://assets-in.bmscdn.com/promotions/cms/creatives/1693390199847_asiansrinivasadesktop.jpg","https://assets-in.bmscdn.com/promotions/cms/creatives/1691130965445_wwesuperstardesktop.jpg"
 ]
 function Courasel() {
 

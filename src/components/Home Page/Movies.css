@@ -18,6 +18,9 @@
   
   }
   
+  .movies-containt{
+    margin: 10px 10px;
+  }
   .shows img {
     width: 220px;
     border-radius: 10px;

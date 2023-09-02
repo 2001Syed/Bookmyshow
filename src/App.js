@@ -12,6 +12,7 @@ import ICC from './components/ICC/ICC'
 import ListYourShow from './components/ListYourShow/ListYourShow'
 import Sports from './Sports/Sports'
 import Places from "./components/Places/Places"
+import Giftcard from './components/Giftcard/Giftcard'
 
 
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/listyourshow' element = {<ListYourShow></ListYourShow>}></Route>
           <Route path='/sports' element = {<Sports></Sports>}></Route>
           <Route path='/hyderabad' element = {<Places></Places>}></Route>
+          <Route path='/giftcard' element = {<Giftcard></Giftcard>}></Route>
         </Routes>
       <Footer></Footer>
       </BrowserRouter>

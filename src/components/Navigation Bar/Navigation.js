@@ -54,7 +54,9 @@ function Navigation() {
                     </Link>
                     <a href="">Corporates</a>
                     <a href="">Offers</a>
-                    <a href="">Gift Cards</a>
+                    <Link to='./giftcard'>
+                        <a href="">Gift Cards</a>
+                    </Link>
 
                 </div>
             </div>
