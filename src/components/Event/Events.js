@@ -157,15 +157,21 @@ function Events() {
         <img src="https://assets-in.bmscdn.com/promotions/cms/creatives/1693217899163_jonitadesktop.jpg" alt="" />
      </div>
      <div className='div3rd'>
-        <h2> Events In Chennai </h2>
-        <li type="none"><a href="#">Online Streaming Events</a></li>
-        <li type="none"  style={{marginLeft:"10px",}}> <a href="#">Workshop</a></li>
-        <li type="none"  style={{marginLeft:"10px",}}><a href="#">Comedy Shows</a></li>
-        <li type="none"  style={{marginLeft:"10px",}}><a href="#">Music Shows</a></li>
-        <li type="none"  style={{marginLeft:"10px",}}><a href="#">Kids</a></li>
-        <li type="none"  style={{marginLeft:"10px",}}><a href="#">Meetups</a></li>
-        <li type="none"  style={{marginLeft:"10px",}}><a href="#">Spirituality</a></li>
-        <li type="none"  style={{marginLeft:"10px",}}><a href="#">Exhibitions</a></li>
+        <div className='div3rd-first'>
+            <h2> Events In Chennai </h2>
+        </div>
+        <div className='div3rd-second'>
+            <ul>
+                <li type="none"><a href="#">Online Streaming Events</a></li>
+                <li type="none"> <a href="#">Workshop</a></li>
+                <li type="none"><a href="#">Comedy Shows</a></li>
+                <li type="none"><a href="#">Music Shows</a></li>
+                <li type="none"><a href="#">Kids</a></li>
+                <li type="none"><a href="#">Meetups</a></li>
+                <li type="none"><a href="#">Spirituality</a></li>
+                <li type="none"><a href="#">Exhibitions</a></li>
+            </ul>
+        </div>
      </div>
 
      <div className='div4th'>

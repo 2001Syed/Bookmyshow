@@ -26,7 +26,9 @@ function Navigation() {
      
             <div className="menu">
                 <div className="rightmenu">
-                    <a href="">Movies</a>
+                    <Link to='/movies'>
+                        <a href="">Movies</a>
+                    </Link>
                     <Link to='/stream'>
                         <a href="">Stream</a>
                     </Link>
@@ -36,7 +38,9 @@ function Navigation() {
                     <Link to='./sports'>
                         <a href="">Sports</a>
                     </Link>
-                    <a href="">Plays</a>
+                    <Link to='/plays'>
+                        <a href="">Plays</a>
+                    </Link>
                     <Link to='/activities'>
                         <a href="">Activities</a>
                     </Link>
@@ -52,8 +56,12 @@ function Navigation() {
                     <Link to='listyourshow'>
                         <a href="">ListYourShow</a>
                     </Link>
-                    <a href="">Corporates</a>
-                    <a href="">Offers</a>
+                    <Link to='./co-operate'>
+                        <a href="">Corporates</a>
+                    </Link>
+                    <Link to="./offers">
+                        <a href="">Offers</a>
+                    </Link>
                     <Link to='./giftcard'>
                         <a href="">Gift Cards</a>
                     </Link>

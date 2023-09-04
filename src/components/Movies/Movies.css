@@ -1,0 +1,31 @@
+.bookmyshow{
+    padding: 20px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    place-items: center;
+  
+  
+  }
+  
+  .moviescomponentdiv{
+
+    margin: 10px 5px;
+  }
+  .bookmyshow  img{
+    width: 200px;
+    border-radius: 20px;
+  }
+  
+  .moviescompnentimg:hover{
+  
+  scale: 5px;
+  }
+  
+  .moviescomponenth2{
+    width: 200px;
+  }
+  
+  .moviescomponentp{
+    font-size: 14px;
+    color: gray;
+  }

@@ -10,9 +10,13 @@ import Activities from './components/Activities/Activities'
 import Buzz from './components/Buzz/Buzz'
 import ICC from './components/ICC/ICC'
 import ListYourShow from './components/ListYourShow/ListYourShow'
-import Sports from './Sports/Sports'
+import Sports from './components/Sports/Sports'
 import Places from "./components/Places/Places"
 import Giftcard from './components/Giftcard/Giftcard'
+import Movies from './components/Movies/Movies'
+import Plays from './components/Plays/Plays'
+import Coperate from './components/Coperate/Coperate'
+import Offers from './components/Offers/Offers'
 
 
 
@@ -33,6 +37,10 @@ function App() {
           <Route path='/sports' element = {<Sports></Sports>}></Route>
           <Route path='/hyderabad' element = {<Places></Places>}></Route>
           <Route path='/giftcard' element = {<Giftcard></Giftcard>}></Route>
+          <Route path='/movies' element = {<Movies></Movies>}></Route>
+          <Route path='/plays' element = {<Plays></Plays>}></Route>
+          <Route path='/co-operate' element = {<Coperate></Coperate>}></Route>
+          <Route path='/offers' element = {<Offers></Offers>}></Route>
         </Routes>
       <Footer></Footer>
       </BrowserRouter>
